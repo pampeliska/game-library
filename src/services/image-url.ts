@@ -1,5 +1,7 @@
+import noImage from "../assets/no-image-placeholder-6f3882e0.webp";
+
 const getCroppedImageUrl = (url: string) => {
-    if (!url) return "";
+    if (!url) return noImage;
     
     const target = "media/";
     // url https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg
